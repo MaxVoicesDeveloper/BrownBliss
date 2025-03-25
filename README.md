@@ -1,6 +1,6 @@
 # ☕ BrownBliss: Minimal Futurism
 
-![BrownBliss](https://media.giphy.com/media/l41lQ7zjb5Wol3ZGw/giphy.gif)
+![BrownBliss](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHhrbnJweGF4bjQxb3pwNmw1Mjlic3M5a3FtMWlqMHZidW9qYXBqdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hPTZgtzfRIB5Nfb5rL/giphy.gif)
 
 ## ✨ Описание
 **BrownBliss** — это концепт современного минималистичного сайта кофейни, сочетающего эстетичный дизайн и функциональность. Проект включает возможность презентации ассортимента, оформления онлайн-заказов и доставки.
@@ -25,7 +25,7 @@
 ## 🔧 Установка и запуск
 1. 📥 Склонируйте репозиторий:
    ```sh
-   git clone https://github.com/username/BrownBliss.git
+   git clone https://github.com/MaxVoicesDeveloper/BrownBliss.git
    ```
 2. ⚙️ Разверните локальный сервер (например, XAMPP, MAMP, LAMP)
 3. 🗃️ Импортируйте базу данных `database.sql` в MySQL
