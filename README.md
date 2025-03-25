@@ -1,6 +1,6 @@
 # ☕ BrownBliss: Minimal Futurism
 
-![BrownBliss](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHhrbnJweGF4bjQxb3pwNmw1Mjlic3M5a3FtMWlqMHZidW9qYXBqdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hPTZgtzfRIB5Nfb5rL/giphy.gif)
+![BrownBliss](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3A1eDV6d2RweGp5dTZoMXFnb3R5YWg5bXVodTN4N2o2aDN4MGhqZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/myPdoRAlad0J2/giphy.gif)
 
 ## ✨ Описание
 **BrownBliss** — это концепт современного минималистичного сайта кофейни, сочетающего эстетичный дизайн и функциональность. Проект включает возможность презентации ассортимента, оформления онлайн-заказов и доставки.
