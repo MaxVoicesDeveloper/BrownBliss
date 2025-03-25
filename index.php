@@ -224,6 +224,32 @@ $freshItems = require_once 'config/fresh_data.php';
         </div>
         
     </section>
+    
+    <section class="reviews">
+        <h2 class="coffee-title">
+            Отзывы
+        </h2>
+        <div class="reviews-content">
+            <div class="review-card">
+                <div class="header">
+                    <div class="avatar"></div>
+                    <div class="review-card">
+                        <div class="name"></div>
+                        <div class="platform"></div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="content-title">Лучший кофе</div>
+                    <div class="content-description">
+                        Такой классный кофе я плачу ваще.
+                         Я просто баристе рот целовал ежжи.
+                         Просто от души да сестричка лучший кент ваще поехали...
+                        </div>
+                </div>
+                <div class="stars"></div>
+            </div>
+        </div>
+    </section>
 
     <!-- Swiper.js -->
      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
