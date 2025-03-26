@@ -9,7 +9,7 @@ $freshItems = require_once 'config/fresh_data.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BrownBlissCoffee</title>
+    <title>CoffeeSense</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Marck+Script&family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
@@ -60,7 +60,7 @@ $freshItems = require_once 'config/fresh_data.php';
             </div>
         </div>
         <div class="logo">
-            <a class="logo-link" href="#">Brown Bliss</a>
+            <a class="logo-link" href="#">CoffeeSense</a>
         </div>
         <div class="profile-block">
             <div class="avatar">
@@ -200,8 +200,8 @@ $freshItems = require_once 'config/fresh_data.php';
                             <span>Один бонусный балл = 1 рубль</span>
                         </div>
                         <div class="description">
-                            <p>Бонус каждому первому покупателю при регистрации бонусной карты кофеен BrownBliss</p>
-                            <p>В честь дня рождения кофейня BrownBliss дарит вам 100 подарочных рублей на счёт</p>
+                            <p>Бонус каждому первому покупателю при регистрации бонусной карты кофеен CoffeeSense</p>
+                            <p>В честь дня рождения кофейня CoffeeSense дарит вам 100 подарочных рублей на счёт</p>
                         </div>
                         <button class="content-button">Подробнее</button>
                     </div>
