@@ -776,11 +776,84 @@ section{
 .reviews{
     .reviews-content{
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(350px, 0fr));
         justify-content: center;
         align-items: center;
+        gap: 25px;
         .review-card{
-            
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            width: 350px;
+            height: 350px;
+            background: #FFDABF;
+            border-radius: 25px;
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            font-family: 'Anonymous Pro', sans-serif;
+            .review-header{
+                display: flex;
+                align-items: center;
+                .avatar{
+                    width: 60px;
+                    height: 60px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .review-title{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    font-size: 32px;
+                    line-height: 35px;
+                    .platform{
+                        font-size: 12px;
+                        line-height: 15px;
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .review-content{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                gap: 0;
+                .content-title, .content-description{
+                    background: #FFE7D6;
+                    padding: 15px;
+                    font-size: 20px;
+                    line-height: 22px;
+                }
+                .content-title{
+                    border-radius: 15px 15px 0 0;
+                    padding: 10px 15px;
+                }
+                .content-description{
+                    border-radius: 0 15px 15px 15px;
+                    .more{
+                        font-weight: 400 !important;
+                    }
+                }
+            }
+            .stars{
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                justify-content: center;
+                gap: 15px;
+                background: #FFE7D6;
+                border-radius: 15px;
+                width: 100%;
+                padding: 8px 15px;
+                img{
+                    width: 35px;
+                    height: 35px;
+                }
+            }
         }
     }
 }

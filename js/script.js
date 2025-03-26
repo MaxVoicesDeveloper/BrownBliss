@@ -50,3 +50,14 @@ var swiper = new Swiper('.swiper-container', {
         clickable: true
     }
 });
+
+
+
+
+document.querySelectorAll('.content-description').forEach(description => {
+    const text = description.textContent;
+    if(text.length > 196) {
+        description.innerHTML = text.slice(0, 196) + '...' + ' <a href="#" class="more">More</a>';
+    }
+});
+

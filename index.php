@@ -226,33 +226,51 @@ $freshItems = require_once 'config/fresh_data.php';
     </section>
     
     <section class="reviews">
-        <h2 class="coffee-title">
+        <h2 class="title">
             Отзывы
         </h2>
         <div class="reviews-content">
+        <?php for ($c = 0; $c < 8; $c++): ?>
             <div class="review-card">
-                <div class="header">
-                    <div class="avatar"></div>
-                    <div class="review-card">
-                        <div class="name"></div>
-                        <div class="platform"></div>
+                <div class="review-header">
+                    <div class="avatar"><img src="img/icons/avatar.svg" alt="Avatar"></div>
+                    <div class="review-title">
+                        <div class="name">Андрей</div>
+                        <div class="platform">Яндекс.Карты</div>
                     </div>
                 </div>
-                <div class="content">
+                <div class="review-content">
                     <div class="content-title">Лучший кофе</div>
                     <div class="content-description">
                         Такой классный кофе я плачу ваще.
                          Я просто баристе рот целовал ежжи.
-                         Просто от души да сестричка лучший кент ваще поехали...
+                         Просто от души да сестричка лучший кент ваще поехали шарики дуть <a href="#" class="more">More</a>
                         </div>
                 </div>
-                <div class="stars"></div>
+                <?php
+$filledStars = 5; // Количество заполненных звезд
+$totalStars = 5; // Общее количество звезд
+?>
+<div class="stars">
+    <?php
+for ($i = 0; $i < $totalStars; $i++) {
+    if ($i < $filledStars) {
+        // Если индекс меньше количества заполненных звезд, выводим обычную звезду
+        echo '<img src="img/icons/star.svg" alt="Star">';
+    } else {
+        // Если индекс больше или равен количеству заполненных звезд, выводим серую звезду
+        echo '<img src="img/icons/star-gray.svg" alt="Gray Star">';
+    }
+}
+?>
+</div>  
             </div>
+            <?php endfor; ?>
         </div>
     </section>
 
     <!-- Swiper.js -->
-     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Bootstrap JS -->
