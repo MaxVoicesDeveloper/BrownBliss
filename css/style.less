@@ -883,6 +883,23 @@ section{
     }
 }
 
+.gallery-swiper {
+    perspective: 1000px; /* Устанавливаем перспективу для 3D-эффекта */
+}
+
+.gallery-swiper .swiper-slide {
+    transition: transform 0.5s; /* Плавный переход для трансформации */
+    transform-style: preserve-3d; /* Сохраняем 3D-эффект */
+}
+
+.gallery-swiper .swiper-slide-active {
+    transform: rotateX(15deg) scale(1.1); /* Поворот и увеличение активного слайда */
+}
+
+.gallery-swiper .swiper-slide:not(.swiper-slide-active) {
+    transform: rotateX(10deg); /* Поворот неактивных слайдов */
+}
+
 
 
 
