@@ -191,7 +191,7 @@ $freshItems = require_once 'config/fresh_data.php';
         </h2>
         <div class="bonus-content">
             <div class="swiper">
-            <div class="swiper-container">
+            <div class="swiper-container bonus-swiper">
                 <div class="swiper-wrapper">
                 <div class="swiper-slide slide-one">
                     <div class="text-content">
@@ -248,17 +248,15 @@ $freshItems = require_once 'config/fresh_data.php';
                         </div>
                 </div>
                 <?php
-$filledStars = 5; // Количество заполненных звезд
-$totalStars = 5; // Общее количество звезд
+$filledStars = 5;
+$totalStars = 5;
 ?>
 <div class="stars">
     <?php
 for ($i = 0; $i < $totalStars; $i++) {
     if ($i < $filledStars) {
-        // Если индекс меньше количества заполненных звезд, выводим обычную звезду
         echo '<img src="img/icons/star.svg" alt="Star">';
     } else {
-        // Если индекс больше или равен количеству заполненных звезд, выводим серую звезду
         echo '<img src="img/icons/star-gray.svg" alt="Gray Star">';
     }
 }
@@ -266,6 +264,23 @@ for ($i = 0; $i < $totalStars; $i++) {
 </div>  
             </div>
             <?php endfor; ?>
+        </div>
+    </section>
+
+
+    <section class="gallery">
+        <h2 class="title">
+            Галерея
+        </h2>
+        <div class="main-gallery-swiper">
+            <div class="gallery-swiper">
+                <div class="swiper-wrapper">
+                    <?php for ($d = 0; $d < 5; $d++){ ?>
+                        <div class="swiper-slide"><img src="https://avatars.mds.yandex.net/i?id=f885cead7e3175e9e6d719d30c878170a4fcf5e8-5219173-images-thumbs&n=13" alt="img"></div> 
+                    <?php } ?>
+                    
+                </div>
+            </div>
         </div>
     </section>
 

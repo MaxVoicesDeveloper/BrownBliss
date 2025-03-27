@@ -859,6 +859,30 @@ section{
     }
 }
 
+.gallery{
+    padding-bottom: 300px;
+    .main-gallery-swiper{
+        position: relative;
+        .gallery-swiper{
+            width: auto;
+            .swiper-wrapper{
+                width: 100%;
+                .swiper-slide{
+                    width: auto;
+                    overflow: hidden;
+                    border-radius: 15px;
+                    transition: 0.5s all;
+                    filter: blur(3px);
+                   &-active{
+                    transform: scale(1.5) translateY(15%);
+                    filter: none;
+                   }
+                }
+            }
+        }
+    }
+}
+
 
 
 

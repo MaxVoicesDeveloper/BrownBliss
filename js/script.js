@@ -37,7 +37,7 @@ $(document).ready(function() {
 });
 
 
-var swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper('.bonus-swiper', {
     loop: true,
     slidesPerView: 1    ,
     spaceBetween: 30,
@@ -51,8 +51,20 @@ var swiper = new Swiper('.swiper-container', {
     }
 });
 
+const swiperGallery = new Swiper('.gallery-swiper', {
+    slidesPerView: 5,
+    spaceBetween: 80,
+    initialSlide: 2,
+    centeredSlides: true,   
+});
 
-
+// Добавляем обработчик клика на каждый слайд
+const slides = document.querySelectorAll('.gallery-swiper .swiper-slide');
+slides.forEach((slide, index) => {
+    slide.addEventListener('click', () => {
+        swiperGallery.slideTo(index); // Перемещаемся к слайду по индексу
+    });
+});
 
 document.querySelectorAll('.content-description').forEach(description => {
     const text = description.textContent;
