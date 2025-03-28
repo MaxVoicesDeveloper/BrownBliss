@@ -53,7 +53,7 @@ const swiper = new Swiper('.bonus-swiper', {
 
 const swiperGallery = new Swiper('.gallery-swiper', {
     slidesPerView: 5,
-    spaceBetween: 60,
+    spaceBetween: 40,
     initialSlide: 2,
     centeredSlides: true,   
 });

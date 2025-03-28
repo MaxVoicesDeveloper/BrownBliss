@@ -868,14 +868,30 @@ section{
             .swiper-wrapper{
                 width: 100%;
                 .swiper-slide{
-                    width: auto;
-                    overflow: hidden;
-                    border-radius: 15px;
+                    width: 150px;
+                    height: 350px;
                     transition: 0.5s all;
+                    overflow: hidden;
                     filter: blur(3px);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                        width: 80%;
+                        height: 100%;
+                        border-radius: 15px;
+                        transition: 0.5s all;
+                        object-fit: cover;
+                    }
                    &-active{
                     transform: scale(1.2) translateY(10%);
                     filter: none;
+                    width: 436px;
+                    height: 500px;
+                    transition: 0.5s all;
+                    img{
+                        width: 100%;
+                    }
                    }
                 }
             }
